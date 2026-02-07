@@ -1,2 +1,2 @@
 coming soon
-0207 updata
+0207 update
