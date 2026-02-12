@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(python generate_npy_predictions.py:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}

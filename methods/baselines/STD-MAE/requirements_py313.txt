@@ -1,0 +1,30 @@
+# Requirements for Python 3.13 compatible versions
+# Updated from original requirements.txt
+
+# Core dependencies
+numpy>=1.26.2  # Updated from 1.21.5 for Python 3.13 compatibility
+scipy>=1.11.0  # Updated from 1.7.3
+torch>=2.0.0  # Updated from 1.13.1 for Python 3.13 compatibility
+easydict==1.10
+scikit-learn>=1.3.0  # Updated from 1.0.2
+
+# Utilities
+setproctitle==1.3.2
+sympy>=1.12
+
+# Deep learning related
+timm>=0.9.0  # Updated from 0.6.11
+positional-encodings>=6.0.1
+
+# Monitoring and debugging
+torch-summary>=1.4.5
+
+# Data processing (required for METR-LA dataset)
+pandas>=2.0.0
+tables>=3.8.0
+
+# EasyTorch - may need manual installation or skip if not available
+# easy_torch==1.2.12  # Comment out if installation fails
+
+# TVM - optional, can be skipped
+# tvm==1.0.0  # Comment out if installation fails

@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0,1 python scripts/train.py -d METRLA -g 0 --seed 42 --cpus 4
+
